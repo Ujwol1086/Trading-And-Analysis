@@ -48,6 +48,21 @@ function Navbar()
                             <option>Analysis</option>
                         </select>
                     </li>
+                    <li>
+                        <select className='bg-transparent'>
+                            <option>Analysis</option>
+                        </select>
+                    </li>
+                    <li>
+                        <select className='bg-transparent'>
+                            <option>Analysis</option>
+                        </select>
+                    </li>
+                    <li>
+                        <select className='bg-transparent'>
+                            <option>Analysis</option>
+                        </select>
+                    </li>
                 </ul>
             </nav>
         </div>
