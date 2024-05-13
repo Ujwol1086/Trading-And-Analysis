@@ -9,10 +9,10 @@ function Navbar()
                 <img src="./src/Images/Logo.jpg" alt='Not Found' className='w-16 h-16 rounded-full' />
                 <input type='text' name='search' placeholder='Search For Company' className='w-80 h-10 p-2 rounded-md text-black focus:outline-cyan-200' />
                 <ul className='flex gap-10'>
-                    <li className='p-2 rounded-md hover:bg-slate-500 ease-in-out duration-150 '><Link to="/">Login</Link></li>
-                    <li className='p-2 rounded-md hover:bg-slate-500 ease-in-out duration-150 '><Link to="/">Register</Link></li>
-                    <li className='p-2 rounded-md hover:bg-slate-500 ease-in-out duration-150 '><Link to="/">Contact us</Link></li>
-                    <li className='p-2 rounded-md hover:bg-slate-500 ease-in-out duration-150 '><Link to="/">About</Link></li>
+                    <li className='list-items'><Link to="/">Login</Link></li>
+                    <li className='list-items'><Link to="/">Register</Link></li>
+                    <li className='list-items'><Link to="/">Contact us</Link></li>
+                    <li className='list-items'><Link to="/">About</Link></li>
                 </ul>
             </nav>
             <nav className='flex justify-between px-10 h-10 bg-orange-500 items-center'>
