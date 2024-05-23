@@ -7,6 +7,7 @@ function Home()
         <>
             <Navbar />
             <div className=''>
+                <h1>THis is Home</h1>
             </div>
         </>
     )
