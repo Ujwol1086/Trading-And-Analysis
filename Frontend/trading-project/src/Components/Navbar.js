@@ -5,11 +5,11 @@ function Navbar()
 {
     return (
         <div>
-            <nav className='flex justify-between items-center w-full px-10 py-2 bg-black'>
-                <img src={require('../Images/Logo.jpg')} alt='Not Found' className='w-20 h-20' />
+            <nav className='flex justify-between items-center w-full px-10 py-5 bg-black'>
+                <img src={require('../Images/logo1.jpg')} alt='Not Found' className='w-20 h-20 scale-150 ' />
 
                 <div class="flex">
-                    <button id="dropdown-button" data-dropdown-toggle="dropdown" class="flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-sm font-medium text-center text-gray-900 bg-gray-100 border border-gray-300 rounded-s-lg hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700 dark:text-white dark:border-gray-600" type="button">Company <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                    <button id="dropdown-button" data-dropdown-toggle="dropdown" class="flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-sm font-medium text-center text-gray-900 bg-gray-100 border border-gray-300 rounded-s-lg hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700 dark:text-white dark:border-gray-600 cursor-pointer" type="button">Company <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
                     </svg></button>
                     <div id="dropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
@@ -50,34 +50,34 @@ function Navbar()
             </nav>
             <nav className='flex justify-between px-10 h-10 bg-orange-500 items-center'>
                 <ul className='flex gap-10'>
-                    <li><Link to="/">Home</Link></li>
+                    <li className='cursor-pointer'><Link to="/">Home</Link></li>
                     <li>
-                        <select className='bg-transparent'>
+                        <select className='bg-transparent cursor-pointer'>
                             <option>News</option>
                         </select>
                     </li>
                     <li>
-                        <select className='bg-transparent'>
+                        <select className='bg-transparent cursor-pointer'>
                             <option>Market</option>
                         </select>
                     </li>
                     <li>
-                        <select className='bg-transparent'>
+                        <select className='bg-transparent cursor-pointer'>
                             <option>IPO/FPO</option>
                         </select>
                     </li>
                     <li>
-                        <select className='bg-transparent'>
+                        <select className='bg-transparent cursor-pointer'>
                             <option>Services</option>
                         </select>
                     </li>
                     <li>
-                        <select className='bg-transparent'>
+                        <select className='bg-transparent cursor-pointer'>
                             <option>Tools</option>
                         </select>
                     </li>
                     <li>
-                        <select className='bg-transparent'>
+                        <select className='bg-transparent cursor-pointer'>
                             <option>Analysis</option>
                         </select>
                     </li>
