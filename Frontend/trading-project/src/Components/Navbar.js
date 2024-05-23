@@ -50,34 +50,34 @@ function Navbar()
             </nav>
             <nav className='flex justify-between px-10 h-10 bg-orange-500 items-center'>
                 <ul className='flex gap-10'>
-                    <li><Link to="/">Home</Link></li>
+                    <li className='cursor-pointer'><Link to="/">Home</Link></li>
                     <li>
-                        <select className='bg-transparent'>
+                        <select className='bg-transparent cursor-pointer'>
                             <option>News</option>
                         </select>
                     </li>
                     <li>
-                        <select className='bg-transparent'>
+                        <select className='bg-transparent cursor-pointer'>
                             <option>Market</option>
                         </select>
                     </li>
                     <li>
-                        <select className='bg-transparent'>
+                        <select className='bg-transparent cursor-pointer'>
                             <option>IPO/FPO</option>
                         </select>
                     </li>
                     <li>
-                        <select className='bg-transparent'>
+                        <select className='bg-transparent cursor-pointer'>
                             <option>Services</option>
                         </select>
                     </li>
                     <li>
-                        <select className='bg-transparent'>
+                        <select className='bg-transparent cursor-pointer'>
                             <option>Tools</option>
                         </select>
                     </li>
                     <li>
-                        <select className='bg-transparent'>
+                        <select className='bg-transparent cursor-pointer'>
                             <option>Analysis</option>
                         </select>
                     </li>
